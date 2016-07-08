@@ -1,0 +1,36 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>选课</title>
+<link href="../script/ligerUI/skins/Aqua/css/ligerui-all.css" rel="stylesheet" />
+<style type="text/css">
+ .fields{margin:0px auto; width:500px;
+ position:absolute; 
+top:50%; 
+left:50%; 
+margin:-150px 0 0 -150px; 
+width:300px; 
+height:300px; } 
+.text{
+margin-bottom:20px;
+}
+ </style> 
+</head>
+<body>
+    <form action="loginjava" method="post">
+        <div class="fields" >
+            用户名：<input class="text"type="text" name="username"  /><br/>
+          密码：  &nbsp;&nbsp;<input class="text" type="password" name="password"  /> <br/>
+         <input type="radio" id="r1" name="person" value="student"> <label  for="r1">学生</label>
+         <input type="radio" id="r2" name="person" value="professor"><label for="r2">教师</label>
+         <input type="radio" id="r3" name="person" value="admin"><label for="r3">管理员</label><br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="login">          
+        </div>
+       
+    
+    
+    </form>
+</body>
+</html>
