@@ -1,2 +1,25 @@
 # SRS
+##表结构
+![]()
+##Course
+![]()
+##Person
+![]()
+##user
+![]()
+##pdetail
+![]()
+##prerequisite
+![]()
+##ScheduleOfClasses
+![]()
+##section
+![]()
+##transcript
+![]()
+##类图
+![]()
+##顺序图-学生选课
+![]()
+##顺序图-录成绩
 ![]()
