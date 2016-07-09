@@ -32,7 +32,7 @@
 <body>
 	<form>
     	<div class="field">
-        	<a href="" class="link">录学生成绩</a><br />
+        	<a href="../servlet/findSectionsByTeach?name=${name }" class="link">录学生成绩</a><br />
             <a href="../servlet/findSectionsByTeach?name=${name }" class="link">查看所授课程</a>
 
         </div>
