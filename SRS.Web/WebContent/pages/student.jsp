@@ -31,6 +31,7 @@
 <body>
 	<form>
     	<div class="field">
+    	<a href="../servlet/ScheduleOfClasses}" class="link">查看学习计划</a><br />
         	<a href="enrollCourse.jsp?name=${p.name}&ssn=${p.ssn}" class="link">选课</a><br />
             <a href="../servlet/gradesOfStudent?ssn=${p.ssn }" class="link">查看成绩</a>
 
