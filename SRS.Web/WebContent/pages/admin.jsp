@@ -25,9 +25,9 @@
 <body>
 	<form>
     	<div class="field">
-        	<a href="" class="link">增加课程</a><br />
-            <a href="" class="link">课程列表</a><br />
-            <a href="" class="link">教师列表</a><br />
+        	<a href="addSection.html" class="link">增加课程</a><br />
+            <a href="../servlet/AllSection" class="link">课程列表</a><br />
+            <a href="../servlet/teachers" class="link">教师列表</a><br />
 
         </div>
     </form>
